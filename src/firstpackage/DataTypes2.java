@@ -31,7 +31,7 @@ public class DataTypes2 {
 		System.out.println(number7);
 
 		// long - 64 bit
-		long number8 = 34765948789l;
+		long number88 = 34765948789l;
 
 		// double - 64bit
 		double number9 = 1.33d;
