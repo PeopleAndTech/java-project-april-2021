@@ -9,7 +9,7 @@ public class DifferentMethods2 {
 		System.out.println(dataFromMethod);
 	}
 
-	// void method --> performs some actions 
+	// void method --> performs some actions
 	// static void method
 	public static void goDrinkCoffee() {
 		System.out.println("you drink coffee from starbucks");
@@ -20,8 +20,7 @@ public class DifferentMethods2 {
 		System.out.println("you drink tea from starbucks");
 	}
 
-
-	// return type method --> returns some data 
+	// return type method --> returns some data
 	// static return type
 	public static int getYear() {
 		return 2021;
