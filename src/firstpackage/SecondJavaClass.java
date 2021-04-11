@@ -2,16 +2,16 @@ package firstpackage;
 
 public class SecondJavaClass { // class body starts
 
-	public void livingRoom() {// method starts
+    public static void main(String[] args) {// method starts
+        System.out.println("chair");
+    }// method ends
 
-	}// method ends
+    public void livingRoom() {// method starts
 
-	public void room2() {// method starts
+    }// method ends
 
-	}// method ends
+    public void room2() {// method starts
 
-	public static void main(String[] args) {// method starts
-		System.out.println("chair");
-	}// method ends
+    }// method ends
 
 }// class body ends

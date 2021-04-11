@@ -2,50 +2,54 @@ package secondpackage;
 
 public class Laptop {
 
-	// accessSpecifier sameNameOfTheClss(){--constructor starts
+    // accessSpecifier sameNameOfTheClss(){--constructor starts
 
-	// constructor body
+    // constructor body
 
-	// } --> constructor ends
+    // } --> constructor ends
 
-	// defaultConsturctor
-	public Laptop() {
+    // global variable / class level variabLe
+    int year;
+    String model;
+    String modelFromConstructor;
 
-	}
+    // defaultConsturctor
+    public Laptop() {
 
-	// parameterized Consturctor
-	public Laptop(int yearFromConstructor) {
-		System.out.println("our new constructor is being executed");
-		this.year = yearFromConstructor;
-	}
+    }
 
-	public Laptop(String modelFromConstructor) {
-		this.model = modelFromConstructor;
-	}
+    // parameterized Consturctor
+    public Laptop(int yearFromConstructor) {
+        System.out.println("our new constructor is being executed");
+        this.year = yearFromConstructor;
+    }
 
-	public Laptop(int yearFromConstructor, String modelFromConstructor) {
-		this.year = yearFromConstructor;
-		this.model = modelFromConstructor;
-	}
+    public Laptop(String modelFromConstructor) {
+        this.model = modelFromConstructor;
+    }
 
-	// global variable / class level variabLe
-	int year;
-	String model;
-	String modelFromConstructor;
+    public Laptop(int yearFromConstructor, String modelFromConstructor) {
+        this.year = yearFromConstructor;
+        this.model = modelFromConstructor;
+    }
 
-	public void printModelOfLaptop() {
-		// local variables / method level variabLe--> they belongs to this method only
-		System.out.println(model);
-	}
+    public static void methodExampleLaptop() {
+        System.out.println("test data ");
+    }
 
-	public int getYearOfLaptop() {
-		return year;
-	}
+    public void printModelOfLaptop() {
+        // local variables / method level variabLe--> they belongs to this method only
+        System.out.println(model);
+    }
 
-	public void printDetailsOfLaptop() {
-		System.out.println("laptops year is " + year);
-		System.out.println("laptops model is " + model);
+    public int getYearOfLaptop() {
+        return year;
+    }
 
-	}
+    public void printDetailsOfLaptop() {
+        System.out.println("laptops year is " + year);
+        System.out.println("laptops model is " + model);
+
+    }
 
 }
