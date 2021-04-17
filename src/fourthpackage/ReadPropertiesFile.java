@@ -14,6 +14,7 @@ public class ReadPropertiesFile {
     // one the location of the file, one the key that you want to read
     // based on the key and file path your method should return the value from the propertie file
 
+
     public static void main(String[] args) throws IOException {
 
         Properties properties = new Properties();

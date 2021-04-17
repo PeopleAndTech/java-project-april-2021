@@ -19,7 +19,11 @@ public class ReadingTextFile {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             while ((tempContainer = bufferedReader.readLine()) != null) {
-                finalContainer = finalContainer + tempContainer;
+                if (finalContainer.equals("")) {
+                    finalContainer = finalContainer + tempContainer;
+                } else {
+                    finalContainer = finalContainer + "\n" + tempContainer;
+                }
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
