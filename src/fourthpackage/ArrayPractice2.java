@@ -14,7 +14,7 @@ public class ArrayPractice2 {
             names[1] = "Burhan";
             names[2] = "Menad";
             names[3] = "Pria";
-            names[4] = "Meron";
+
             // names[5] = "Meron";
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("fix the our of bound exception, theres more data than it should be");

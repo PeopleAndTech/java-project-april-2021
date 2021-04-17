@@ -27,6 +27,8 @@ public class ArrayPractice {
             System.out.println(dataOnLoop);
         }
 
+        System.out.println(names);
+
 
     }
 }
