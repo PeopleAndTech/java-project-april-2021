@@ -43,8 +43,9 @@ public class ForLoopPractice {
             // System.out.println("java " + i);
 
             for (int j = 0; j < 2; j++) {
-                // System.out.println("selenium");
+                System.out.println("selenium");
             }
+
 
         }
 
