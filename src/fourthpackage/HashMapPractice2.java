@@ -16,42 +16,39 @@ public class HashMapPractice2 {
         listOfStateUSA.add("NJ");
         listOfStateUSA.add("PA");
 
-
         ArrayList<String> listOfStateCanada = new ArrayList<>();
         listOfStateCanada.add("CO");
         listOfStateCanada.add("NH");
-
 
         HashMap<String, ArrayList<String>> countryMap = new HashMap<>();
         countryMap.put("USA", listOfStateUSA);
         countryMap.put("Canada", listOfStateCanada);
 
-
         System.out.println(countryMap);
-
         System.out.println(countryMap.get("USA"));
 
-
         System.out.println("*********");
-
 
         HashMap<String, Integer> cityAndZipOfUSA = new HashMap<>();
         cityAndZipOfUSA.put("Rego Park", 11374);
         cityAndZipOfUSA.put("Forest Hills", 35356);
 
-
         HashMap<String, Integer> cityAndZipOfCanada = new HashMap<>();
         cityAndZipOfCanada.put("gvhjbkn", 456);
         cityAndZipOfCanada.put("Forest gvhb", 54);
-
 
         ArrayList<HashMap<String, Integer>> cityAndZipCodes = new ArrayList<>();
         cityAndZipCodes.add(cityAndZipOfUSA);
         cityAndZipCodes.add(cityAndZipOfCanada);
 
-
         System.out.println(cityAndZipCodes);
 
+        HashMap<String, Integer> map = cityAndZipCodes.get(0);
+        int value = map.get("Rego Park");
+        System.out.println(value);
+
+        int value2 = cityAndZipCodes.get(0).get("Rego Park");
+        System.out.println(value2);
 
         // read both the config files
         // store the key value from the config to maps
