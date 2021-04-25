@@ -2,6 +2,8 @@ package fifthpackage;
 
 public class CellPhone {
 
+    // test comment
+
     // singleton class
 
     //1. private static object of the class (half way)
