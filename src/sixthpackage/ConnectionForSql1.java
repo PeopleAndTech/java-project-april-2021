@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ConnectionForSql1 {
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
         String username = "root";
         String password = "root1234";
