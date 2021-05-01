@@ -47,8 +47,8 @@ public class Practice {
 
         //2. from a given sentence, find out their occurrences
 
-        String data = "Today is Sunday. Sunday is a good day. I play soccer on Sunday.";
-        HashMap<String, Integer> mapOfOccurences = getTheOccurencesOfWords(data);
+        //String data = "Today is Sunday. Sunday is a good day. I play soccer on Sunday.";
+        //HashMap<String, Integer> mapOfOccurences = getTheOccurencesOfWords(data);
 
         //3. from a given sentence, find out the dupes in the map
 
